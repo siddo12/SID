@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Cryptography</h1>
+
+<form method="post" onsubmit="return validateForm()" action="PlainToEnc.php">
+
+  <label for="CCAvenue">Choose a Method:</label>
+  <select id="CCAvenue" name="ccavenue">
+    <option name="enc" value="enc">Encrypt</option>
+    <option name="decr" value="decr">Decrypt</option>
+    </select><br><br>
+  <label for="fname">Enter Data:</label>
+  <textarea type="text" id="plain" name="plain" value=""></textarea><br><br>
+  <label for="fname">Encryption Key:</label>
+  <input type="text" id="Encryption Key" name="working_key" value=""><br><br>
+  <input type="submit" value="Submit">
+</form>
+</body>
+</html>

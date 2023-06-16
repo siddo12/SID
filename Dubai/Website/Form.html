@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Please enter billing information</h2>
+
+<form method="post" name="customerData" action="ccavRequestHandler.php">
+<table width="40%" height="100" border='1' align="center"><caption><font size="4" color="blue"><b>Integration Kit</b></font></caption></table>
+			<table width="40%" height="100" border='1' align="center">
+			
+			<tr>
+					<td>Merchant Id	:</td><td><input type="hidden" name="merchant_id" value="45990"/></td>
+				</tr>
+				<tr>
+					<td>Order Id	:</td><td><input type="text" name="order_id" value=""/></td>
+				</tr>
+				<tr>
+					<td>Amount	:</td><td><input type="text" name="amount" value=""/></td>
+				</tr>
+				<tr>
+					<td>Currency	:</td><td><input type="text" name="currency" value="AED"/></td>
+				</tr>
+				<tr>
+					<td>Redirect URL	:</td><td><input type="hidden" name="redirect_url" value="http://localhost/Dubai/PHP_Kit/NON_SEAMLESS_KIT/ccavResponseHandler.php"/></td>
+				</tr>
+			 	<tr>
+			 		<td>Cancel URL	:</td><td><input type="hidden" name="cancel_url" value="http://localhost/Dubai/PHP_Kit/NON_SEAMLESS_KIT/ccavResponseHandler.php"/></td>
+			 	</tr>
+			 	<tr>
+					<td>Language	:</td><td><input type="hidden" name="language" value="EN"/></td>
+				</tr>
+ 
+</form>
+
+</body>
+</html>
